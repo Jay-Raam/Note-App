@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "First Entry",
+    "description": "Description of the first entry.",
+    "image": "first_image.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Second Entry",
+    "description": "Description of the second entry.",
+    "image": "second_image.jpg"
+  },
+   {
+    "id": 3,
+    "title": "Second Entry",
+    "description": "Description of the second entry.",
+    "image": "second_image.jpg"
+  },
+   {
+    "id": 4,
+    "title": "Second Entry",
+    "description": "Description of the second entry.",
+    "image": "second_image.jpg"
+  },
+   {
+    "id": 5,
+    "title": "Second Entry",
+    "description": "Description of the second entry.",
+    "image": "second_image.jpg"
+  }
+]
+
