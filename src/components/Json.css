@@ -13,31 +13,36 @@ form {
 label {
   margin-bottom: 10px;
   display: flex;
+  color: white;
   flex-direction: column;
   gap: 16px;
 }
 
-input[type="text"],
-input[type="file"],
-button[type="submit"] {
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+input,
+button {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
 }
+
+input:focus {
+    border: 1px solid blue;
+}
+
 .main {
   height: 200px;
 }
-input[type="file"] {
-  padding: 6px;
-}
 
-button[type="submit"] {
-  background-color: #007bff;
+button {
+  background-color: rgb(0, 0, 0);
   color: white;
   width: 200px;
   height: 50px;
+  outline: none;
+  border: none;
   margin: 0 auto;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -45,21 +50,23 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: rgba(0, 0, 0, 0.845);
 }
 
 textarea {
   padding: 8px;
   margin-bottom: 10px;
+  background: transparent;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
   height: 200px;
   resize: vertical;
 }
-.nine{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 133px;
-    margin-bottom: 435px;
+
+.nine {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 133px;
+  margin-bottom: 435px;
 }

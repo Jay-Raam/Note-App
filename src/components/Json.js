@@ -70,10 +70,12 @@ const JsonUpdateForm = () => {
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '5px',
-  };
+    backdropFilter: 'blur(100px)',
+};
+
 
   useEffect(() => {
-    console.log('Updated JSON:', jsonArray);
+ console.log("Successful data is taken")
   }, [jsonArray]);
 
   return (
@@ -83,7 +85,7 @@ const JsonUpdateForm = () => {
       ) : (
         <form style={formStyles} onSubmit={handleSubmit}>
           <label>
-            Title
+            Taks
             <input type="text" name="title" value={formData.title} onChange={handleInputChange} />
           </label>
           <label>

@@ -1,9 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-h1{
+
+body {
+    background: url('./image/m4.avif') no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-size: 1075px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-size: 1075px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: 1075px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 1075px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 }
